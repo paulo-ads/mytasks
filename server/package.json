@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && cp -r src/generated dist/src/generatedc",
+    "build": "npx prisma generate && tsc",
     "dev": "tsx watch src/index.ts",
     "format": "prettier --write \"src/**/*.{ts,js,json}\"",
     "lint:fix": "eslint \"src/**/*.{ts,js}\" --fix",

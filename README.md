@@ -3,6 +3,10 @@
 MyTasks is a robust **Kanban Task Manager web application**, built with the **PEAN** stack (PostgreSQL, Express, Angular, Node.js). It offers registered users a complete **project management dashboard**, allowing them to organize their workflow through a visual board system.
 
 Users can create and customize multiple boards, columns, and manage tasks using an intuitive **Drag & Drop interface**. To ensure data privacy, the system implements secure authentication, ensuring users only access their own boards and data.
+
+### **[Try it out](https://mytasks-chi.vercel.app/)**
+
+
 ## Features
 #### Secure Authentication: Create an account and log in securely using JWT (JSON Web Tokens).
 https://github.com/user-attachments/assets/cf14004f-6593-4f88-aeb1-cccd8618cd45

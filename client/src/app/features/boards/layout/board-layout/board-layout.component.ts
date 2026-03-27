@@ -114,7 +114,7 @@ import { Board } from '../../../../core/models/board.model';
             <app-theme-toggle></app-theme-toggle>
 
             <a
-              href="https://github.com/restless-dev/mytasks"
+              href="https://github.com/paulo-ads/mytasks"
               target="_blank"
               class="flex items-center gap-2 bg-black hover:bg-gray-800 text-white px-6 py-2 rounded-md text-sm font-bold transition shadow-sm no-underline"
             >

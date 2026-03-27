@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ['http://localhost:4200', ''],
+    origin: ['http://localhost:4200', 'https://mytasks-chi.vercel.app/'],
     credentials: true,
   }),
 );

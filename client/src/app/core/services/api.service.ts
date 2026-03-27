@@ -10,7 +10,7 @@ import { Task } from '../models/task.model';
 })
 export class ApiService {
   private http = inject(HttpClient);
-  private apiUrl = 'https://mytasks-api-xyz.onrender.com/api';
+  private apiUrl = 'https://mytasks-ndzv.onrender.com';
 
   signup(data: any) {
     return this.http.post(`${this.apiUrl}/auth/signup`, data);
